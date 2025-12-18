@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Puding | Puding Manis</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="top-nav">
+    <div class="brand">🍮 Puding Manis</div>
+    <nav>
+        <a href="index.html">Home</a>
+        <a class="active" href="menu.html">Menu</a>
+        <a href="profil.html">Profil</a>
+    </nav>
+</header>
+
+<section class="page-title">
+  <h2 class="menu-judul">Menu Puding Manis</h2>
+
+  <div class="puding-slider">
+    <div class="puding-item">
+      <img src="https://img-global.cpcdn.com/recipes/2d3b57ebd9b73a0a/1200x630cq80/photo.jpg" alt="Puding Coklat">
+      <p>Puding Coklat</p>
+    </div>
+
+    <div class="puding-item">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3yRaHDFX3w21s1XXmaEwoU4FzyL8J91PMHPAptcRKWT_bKUXkEWwGOzo&s=10" alt="Puding Strawberry">
+      <p>Puding Strawberry</p>
+    </div>
+
+    <div class="puding-item">
+      <img src="https://image.idntimes.com/post/20250109/screenshot-2025-0109-0830472-579c18e74dce0f8e75e98443de8e9b79-f3645686a47e023d83e01fb4fe312dcd.jpg" alt="Puding Vanila">
+      <p>Puding Vanila</p>
+    </div>
+
+    <div class="puding-item">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtBPpe1K7s0ZeTOoXwwpYe8lIDTXtrIP_nLLfJIHxI_7-f05N29ux94Mo&s=10" alt="Puding Mangga">
+      <p>Puding Mangga</p>
+    </div>
+  </div>
+</section>
+
+    <p>Pilih puding favorit Anda</p>
+</section>
+
+<section class="menu-grid">
+
+<!-- TEMPLATE MENU -->
+<script>
+function pesanWA(nama, harga){
+    let nomor = "6281242666222"; // GANTI NOMOR WA
+    let pesan = `Halo, saya ingin pesan ${nama} seharga Rp ${harga}`;
+    window.open(`https://wa.me/${nomor}?text=${encodeURIComponent(pesan)}`);
+}
+</script>
+
+<div class="menu-item"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4zt0oD7fK5XQ88bdCs_GSThqHvPONhoPEpg&usqp=CAU"><h3>Puding Salad</h3><span>Rp 10.000</span><button onclick="pesanWA('Puding Coklat','8.000')" class="btn-wa">Pesan WA</button></div>
+<div class="menu-item"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQamdXRxn3es9GemyFQ2Tdx5ORoBB1gZb4WTg&usqp=CAU"><h3>Puding Silky</h3><span>Rp 10.000</span><button onclick="pesanWA('Puding Vanila','7.000')" class="btn-wa">Pesan WA</button></div>
+<div class="menu-item"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3yRaHDFX3w21s1XXmaEwoU4FzyL8J91PMHPAptcRKWT_bKUXkEWwGOzo&s=10"><h3>Puding Stroberi</h3><span>Rp 9.000</span><button onclick="pesanWA('Puding Stroberi','9.000')" class="btn-wa">Pesan WA</button></div>
+<div class="menu-item"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtBPpe1K7s0ZeTOoXwwpYe8lIDTXtrIP_nLLfJIHxI_7-f05N29ux94Mo&s=10"><h3>Puding Mangga</h3><span>Rp 9.000</span><button onclick="pesanWA('Puding Mangga','9.000')" class="btn-wa">Pesan WA</button></div>
+<div class="menu-item"><img src="https://img-global.cpcdn.com/recipes/f0220d2d7dab7331/680x781cq80/puding-oreo-lapis-coklat-foto-resep-utama.jpg "><h3>Puding Oreo</h3><span>Rp 10.000</span><button onclick="pesanWA('Puding Oreo','10.000')" class="btn-wa">Pesan WA</button></div>
+
+<div class="menu-item"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxGIdy-vDNhD-i9oUu7eYYVGBnBy5Tka4gbd30jO83j6KAB5KtKGUYLxnt&s=10 "><h3>Puding Caramel</h3><span>Rp 12.000</span><button onclick="pesanWA('Puding Caramel','12.000')" class="btn-wa">Pesan WA</button></div>
+<div class="menu-item"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-6Zv5iOIwoax-K6XnZadxZDxHAkPx8tPqZ8n49tM2aSjmJCSLJBRqSx4&s=10 "><h3>Puding Matcha</h3><span>Rp 13.000</span><button onclick="pesanWA('Puding Matcha','13.000')" class="btn-wa">Pesan WA</button></div>
+<div class="menu-item"><img src="https://i.ytimg.com/vi/_4nQ0h3uJ8Q/maxresdefault.jpg"><h3>Puding Regal</h3><span>Rp 14.000</span><button onclick="pesanWA('Puding Regal','14.000')" class="btn-wa">Pesan WA</button></div>
+<div class="menu-item"><img src="https://totabuan.news/wp-content/uploads/2022/12/rsz_aletacake_274253204_1602744833422201_2498640895092033327_n.webp"><h3>Puding Buah</h3><span>Rp 11.000</span><button onclick="pesanWA('Puding Buah','11.000')" class="btn-wa">Pesan WA</button></div>
+<div class="menu-item"><img src="https://i.ytimg.com/vi/IK7VsRXh4tg/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCCZ0Y6DtOiNnrQOuizD_BuH2IO1Q"><h3>Puding Lapis</h3><span>Rp 10.000</span><button onclick="pesanWA('Puding Lapis','10.000')" class="btn-wa">Pesan WA</button></div>
+
+<div class="menu-item"><img src="https://img-global.cpcdn.com/recipes/6041f8b161958f9b/1200x630cq80/photo.jpg"><h3>Puding Keju</h3><span>Rp 12.000</span><button onclick="pesanWA('Puding Keju','12.000')" class="btn-wa">Pesan WA</button></div>
+<div class="menu-item"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBbmQZuBxrwvuohL_hdxwyvc6E1X20STicp4Ge7vZTyJxQnO7DIU3pX_EN&s=10"><h3>Puding Pisang</h3><span>Rp 9.000</span><button onclick="pesanWA('Puding Pisang','9.000')" class="btn-wa">Pesan WA</button></div>
+<div class="menu-item"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHX6o7jcILaV4XdPucUJLRpFr47bnZqxPgfQuRSCB_aFYB_UIGkhdrdyt_&s=10"><h3>Puding Susu</h3><span>Rp 11.000</span><button onclick="pesanWA('Puding Kopi','11.000')" class="btn-wa">Pesan WA</button></div>
+<div class="menu-item"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTq__WKVKSjdntHwVX8VLgwjFXclr4M3sUzRHQurkBn9sznnxWmh7BOcYo&s=10"><h3>Puding Alpukat</h3><span>Rp 12.000</span><button onclick="pesanWA('Puding Alpukat','12.000')" class="btn-wa">Pesan WA</button></div>
+<div class="menu-item"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhOXxRBJ4pbknuOAx4z-7NUdvm-sEirmbNLrqyIVaudnDMP8DUMgn95N14&s=10"><h3>Puding Tiramizu</h3><span>Rp 15.000</span><button onclick="pesanWA('Puding Premium Mix','15.000')" class="btn-wa">Pesan WA</button></div>
+
+</section>
+
+<footer class="footer">© 2025 Puding Manis</footer>
+</body>
+</html>
