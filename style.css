@@ -278,3 +278,18 @@ body {
         font-size: 28px;
     }
 }
+.wa-icon {
+    width: 28px;
+    height: 28px;
+    max-width: 100%;
+    object-fit: contain; /* menjaga proporsi gambar */
+}
+<a href="https://wa.me/628123456789" class="wa">
+    <img src="wa-logo.png" alt="WhatsApp" class="wa-icon">
+</a>
+.top-nav .wa {
+    display: inline-block;
+    width: 28px;
+    height: 28px;
+}
+
